@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="FTP:jar" />
+      <artifact name="FTPS:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fbea1f5-73c0-4690-9e42-2f945744f167" name="Default" comment="" />
+    <list default="true" id="6fbea1f5-73c0-4690-9e42-2f945744f167" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/FTPS_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FTP_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CtrlListen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CtrlListen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/FClientFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/FClientFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/FClientFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/FClientFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/FThreadServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/FThreadServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/operation/FtpConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/operation/FtpConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/operation/ListCMD.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/operation/ListCMD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FTP_jar/FTP.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FTP_jar/FTPClient.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FClientFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operation/FtpConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operation/FtpConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operation/ListCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operation/ListCMD.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,17 +39,8 @@
       <file leaf-file-name="FThreadServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="30" column="28" selection-start-line="27" selection-start-column="19" selection-end-line="30" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FClientFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FClientFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11799">
-              <caret line="519" selection-start-line="519" selection-end-line="519" />
+            <state relative-caret-position="115">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +51,7 @@
       <file leaf-file-name="UpfileCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UpfileCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="-935">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -59,7 +69,7 @@
       <file leaf-file-name="ListCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="-1334">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -68,14 +78,32 @@
       <file leaf-file-name="GetfileCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetfileCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="-920">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCMD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/operation/UserCMD.java">
+      <file leaf-file-name="PasswordCMD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/operation/PasswordCMD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PortCMD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/operation/PortCMD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-631">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PwdCMD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/operation/PwdCMD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -83,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InetAddress.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/InetAddress.java">
+      <file leaf-file-name="QuitCMD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/operation/QuitCMD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33787">
-              <caret line="1469" column="30" selection-start-line="1469" selection-start-column="30" selection-end-line="1469" selection-end-column="30" />
+            <state relative-caret-position="92">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,7 +127,12 @@
       <find>address</find>
       <find>local</find>
       <find>main</find>
+      <find>FClientFrame</find>
+      <find>mainframe</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -113,6 +146,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/FClientFrame.java" />
+        <option value="$PROJECT_DIR$/src/operation/FtpConnection.java" />
+        <option value="$PROJECT_DIR$/src/operation/ListCMD.java" />
+        <option value="$PROJECT_DIR$/src/FThreadServer.java" />
       </list>
     </option>
   </component>
@@ -126,17 +162,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
-    <option name="y" value="177" />
-    <option name="width" value="1835" />
-    <option name="height" value="1089" />
+    <option name="x" value="-93" />
+    <option name="y" value="226" />
+    <option name="width" value="1935" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -149,31 +184,7 @@
             <path>
               <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftpn" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftpn" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftpn" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="FTP_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftpn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftpn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
@@ -181,27 +192,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="operation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ftpn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftpn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FClientFrame.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Java库" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19914651" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -296,44 +303,79 @@
       <updated>1528366316018</updated>
       <workItem from="1528366322221" duration="7217000" />
       <workItem from="1528384896692" duration="110000" />
+      <workItem from="1528528582432" duration="2522000" />
+      <workItem from="1528542689359" duration="297000" />
+      <workItem from="1528600033568" duration="5481000" />
+      <workItem from="1528690085945" duration="1265000" />
+      <workItem from="1528712726379" duration="5761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7327000" />
+    <option name="totallyTimeSpent" value="22653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="142" width="1468" height="871" extended-state="0" />
+    <frame x="-74" y="181" width="1548" height="846" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32732317" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32110092" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37309292" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24965613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25749674" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3294423" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23571429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32068062" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32853404" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -342,6 +384,197 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/UpfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TypeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/UserCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33787">
+          <caret line="1469" column="30" selection-start-line="1469" selection-start-column="30" selection-end-line="1469" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FClientFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12052">
+          <caret line="524" column="5" selection-start-line="524" selection-start-column="5" selection-end-line="524" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#929#945#0" expanded="true" />
+            <element signature="e#1001#1018#0" expanded="true" />
+            <element signature="e#1827#1924#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#11065#11073#0" expanded="true" />
+            <element signature="e#12283#12291#0" expanded="true" />
+            <element signature="e#13913#13921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FThreadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TypeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/UserCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33787">
+          <caret line="1469" column="30" selection-start-line="1469" selection-start-column="30" selection-end-line="1469" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FClientFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12052">
+          <caret line="524" column="5" lean-forward="true" selection-start-line="524" selection-start-column="5" selection-end-line="524" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#929#945#0" expanded="true" />
+            <element signature="e#1001#1018#0" expanded="true" />
+            <element signature="e#1827#1924#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#11065#11073#0" expanded="true" />
+            <element signature="e#12283#12291#0" expanded="true" />
+            <element signature="e#13913#13921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FThreadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="28" selection-start-line="27" selection-start-column="19" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FClientFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11937">
+          <caret line="519" selection-start-line="519" selection-end-line="519" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#929#945#0" expanded="true" />
+            <element signature="e#1001#1018#0" expanded="true" />
+            <element signature="e#1827#1924#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#11065#11073#0" expanded="true" />
+            <element signature="e#12283#12291#0" expanded="true" />
+            <element signature="e#13913#13921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TypeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/UserCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33787">
+          <caret line="1469" column="30" selection-start-line="1469" selection-start-column="30" selection-end-line="1469" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FThreadServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -355,6 +588,13 @@
           <caret line="519" selection-start-line="519" selection-end-line="519" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#929#945#0" expanded="true" />
+            <element signature="e#1001#1018#0" expanded="true" />
+            <element signature="e#1827#1924#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#11065#11073#0" expanded="true" />
+            <element signature="e#12283#12291#0" expanded="true" />
+            <element signature="e#13913#13921#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,7 +643,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/InetAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33787">
+        <state relative-caret-position="31809">
           <caret line="1469" column="30" selection-start-line="1469" selection-start-column="30" selection-end-line="1469" selection-end-column="30" />
         </state>
       </provider>
@@ -417,18 +657,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11799">
-          <caret line="519" selection-start-line="519" selection-end-line="519" />
+        <state relative-caret-position="4622">
+          <caret line="524" selection-start-line="524" selection-end-line="524" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#929#945#0" expanded="true" />
+            <element signature="e#1001#1018#0" expanded="true" />
+            <element signature="e#1827#1924#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#11065#11073#0" expanded="true" />
+            <element signature="e#12283#12291#0" expanded="true" />
+            <element signature="e#13913#13921#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpfileCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/operation/CdupCMD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/CwdCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/FtpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-976">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/FtpState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/GetFileCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1390">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/ListCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/PasswordCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/PortCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/PwdCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operation/QuitCMD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -439,24 +756,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/UpfileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-935">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="-1334">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetfileCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="-920">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FThreadServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="30" column="28" selection-start-line="27" selection-start-column="19" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="115">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -467,17 +797,18 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
               <type id="jpa-descriptors" />
               <type id="library" />
-              <type id="artifact" />
-              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
-          <last-edited>FTP:jar</last-edited>
+          <last-edited>FTPS:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.19914651" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

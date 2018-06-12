@@ -24,8 +24,6 @@ public class ListCMD implements Command {
 			out.println("请求成功，以文本模式传输");
 			out.flush();
 			File f = new File(currentdir);
-		//	System.out.println(currentdir);// /////////////////////////////////////测试
-			
 			String dateStr;
 			File[] files = f.listFiles();
 			for (int i = 0; i < files.length; i++) {

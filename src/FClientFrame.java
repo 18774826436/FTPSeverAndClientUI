@@ -6,6 +6,8 @@ import java.util.*;
 import java.awt.GridBagConstraints.*;
 import javax.swing.*;
 
+import static com.sun.deploy.uitoolkit.ToolkitStore.dispose;
+
 
 public class FClientFrame extends MouseAdapter implements ActionListener {
 
@@ -388,9 +390,11 @@ public class FClientFrame extends MouseAdapter implements ActionListener {
 				downloadbutton.setEnabled(true);
 				uploadbutton.setEnabled(true);
 			} else {
+                JOptionPane.showMessageDialog(null, "登录信息错误！！！请核对 ！！！", "警告 ", JOptionPane.ERROR_MESSAGE);
 				System.out.println("登录信息错误");
-				//System.exit(1);
-				FClientFrame fm2=new FClientFrame();
+				mainframe.dispose();
+				FClientFrame fm = new FClientFrame();
+
 			}
 		} else {
 			System.out.println("服务器在运行中");
@@ -509,18 +513,18 @@ public class FClientFrame extends MouseAdapter implements ActionListener {
 		}
 	}
 
-	// 测试用
+
+
 	public static void main(String[] art) {
 
 		FClientFrame fm =new FClientFrame();
-
 	}
+
 
 }
 
 /**
- * 
- * @author 似水年华
+ *
  * 
  */
 class CtrlListen implements Runnable {

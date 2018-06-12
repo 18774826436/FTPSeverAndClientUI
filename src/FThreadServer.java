@@ -14,9 +14,25 @@ public class FThreadServer {
 	PrintWriter out;
 	
 	public FThreadServer() {
-		System.out.println("欢迎使用Ftp多线程服务器^_^");
+
+		Scanner input = new Scanner(System.in);
+		System.out.println("请您选择你要开放的端口号，便于连接");
+		String port = "4500";
+		int portNumber;
+		port = input.nextLine();
+		while (true) {
+			try {
+				portNumber = Integer.parseInt(port);
+				break;// 假如强转成功，则终止循环
+			} catch (Exception e) {
+				System.out.println("输入的" + port + "不是数字，重新输入");
+				port = input.next();// 强转失败，继续输入
+			}
+		}
+		System.out.println("欢迎使用Ftp多线程服务器^_^，我们现在为您开放了" +port+ "端口号，您可以通过这个端口号，进行登录和数据的管理");
 		try {
-			serversocket = new ServerSocket(4500);//定义端口号
+
+			serversocket = new ServerSocket(Integer.parseInt(port));//定义端口号
 			while (true) {
 				socket = serversocket.accept();
 

@@ -53,9 +53,7 @@ public class FtpConnection extends Thread {
 				String s = in.readLine();
 				if (s.equals(null)) {
 					state = false;
-				//	System.out.println("没有代码");// ////////
 				} else {
-				//	System.out.println(s);// /////////////
 					String[] str = s.split(" "); 
 
 					// 解析命令
@@ -83,7 +81,6 @@ public class FtpConnection extends Thread {
 							ftpstate.SetCurrentdir(currentdir);
 							ftpstate.SetDir(dir);
 							ftpstate.SetState(state);
-						//	System.out.println(cmd + " ");// /////////////////////
 							Command command = (Command) commands.get(cmd);
 							command.Excecute(param, out,ftpstate);
 							ftpstate = command.Excecute();				
@@ -91,7 +88,6 @@ public class FtpConnection extends Thread {
 							currentdir = ftpstate.GetCurrentdir();
 							state = ftpstate.GetState();
 						} else {
-						//	System.out.println(cmd + " ");// //////////////////////////////////////
 							out.println("500 语法错误");
 							out.flush();
 						}
